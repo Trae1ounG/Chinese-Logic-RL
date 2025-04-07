@@ -38,6 +38,12 @@ pip install wandb IPython matplotlib
 
 You can directly use /data.
 
+The data is also available at [knights-and-knaves-ZH](https://huggingface.co/datasets/Trae1ounG/knights-and-knaves-ZH/tree/main), you can load as:
+```
+import datasets
+datasets.load_dataset('Trae1ounG/knights-and-knaves-ZH', 'test')
+```
+
 For your own data generation, here's a quick bash script:
 
 ```
