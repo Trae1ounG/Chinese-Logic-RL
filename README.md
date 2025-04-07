@@ -71,7 +71,7 @@ bash main_run.sh
 
 ## Results
 
-Currently, I am only able to run Qwen2.5-0.5B on 4x3090 GPUs due to limitations in time and space. The results for response length and reward are presented below.
+Currently, I am only able to run Qwen2.5-1.5B on 4x3090 GPUs due to limitations in time and space. The results for response length and reward are presented below.
 
 As the reward increases, the response length decreases significantly, leaving only a single sentence between `<think>` and `</think>`.
 
